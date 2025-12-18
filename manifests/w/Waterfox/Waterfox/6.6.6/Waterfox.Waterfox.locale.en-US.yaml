@@ -1,4 +1,5 @@
 # Created with komac v2.14.0
+# Edited by Ray
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
 
 PackageIdentifier: Waterfox.Waterfox
@@ -7,10 +8,10 @@ PackageLocale: en-US
 Publisher: BrowserWorks
 PublisherUrl: https://browser.works/
 PublisherSupportUrl: https://github.com/BrowserWorks/Waterfox/issues
-PrivacyUrl: https://www.waterfox.net/docs/policies/privacy/
+PrivacyUrl: https://www.waterfox.com/docs/policies/privacy/
 Author: Alex Kontos, Adam Wood
 PackageName: Waterfox
-PackageUrl: https://www.waterfox.net/
+PackageUrl: https://www.waterfox.com/
 License: MPL-2.0
 LicenseUrl: https://github.com/BrowserWorks/waterfox/blob/HEAD/toolkit/content/license.html
 Copyright: Copyright © BrowserWorks Ltd
@@ -27,8 +28,7 @@ Tags:
 - secure
 - tracking-protection
 - web-browser
-Documentations:
-- DocumentLabel: FAQ
-  DocumentUrl: https://www.waterfox.net/docs/faq/
+# Removed obsolete FAQ documentation link (no longer exists).
 ManifestType: defaultLocale
 ManifestVersion: 1.10.0
+
